@@ -3,7 +3,7 @@
 }
 
 footer {
-    background-color: #523e4e;
+    background-color: #382d35;
     color: white;
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 body {
-    background-color: rgb(231, 219, 219);
+    background-color: aqua;
     color: #000202d8;
     font-family: Arial;
 }
@@ -68,16 +68,51 @@ svg {
     }
 }
 
-body,
 html {
     margin: 0;
     padding: 0;
     height: 100%;
 }
 
-body,
-html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+.skills {
+    text-align: right;
+    /* Right-align text */
+    padding-top: 10px;
+    /* Add top padding */
+    padding-bottom: 10px;
+    /* Add bottom padding */
+    color: white;
+    /* White text color */
 }
+
+.html {
+    width: 95%;
+    background-color: #212423;
+}
+
+
+/* Green */
+
+.css {
+    width: 90%;
+    background-color: #212423;
+}
+
+
+/* Blue */
+
+.js {
+    width: 60%;
+    background-color: #212423;
+}
+
+
+/* Red */
+
+.php {
+    width: 10%;
+    background-color: #212423;
+}
+
+
+/* Dark Grey */
