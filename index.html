@@ -178,7 +178,7 @@
     <!-- servizi -->
 
 
-    <div id="servizi " class="container ">
+    <div id="servizi" class="container ">
         <div class="row ">
             <div class="col-12 text-center ">
                 <svg viewbox="0 0 100 20 ">
@@ -200,7 +200,7 @@
       </path>
     </pattern>
   </defs>
-  <text text-anchor="middle " x="50 " y="15 " font-size="17 " fill="url(#wave) "  fill-opacity="0.6 ">Skills</text>
+  <text id="servizi" text-anchor="middle " x="50 " y="15 " font-size="17 " fill="url(#wave) "  fill-opacity="0.6 ">Skills</text>
   <text text-anchor="middle " x="50 " y="15 " font-size="17 " fill="url(#gradient) " fill-opacity="0.1 ">Skills</text>
 </svg>
 
@@ -255,7 +255,7 @@
       </path>
     </pattern>
   </defs>
-  <text text-anchor="middle " x="50 " y="15 " font-size="17 " fill="url(#wave) "  fill-opacity="0.6 ">Contatti</text>
+  <text id="contatti" text-anchor="middle " x="50 " y="15 " font-size="17 " fill="url(#wave) "  fill-opacity="0.6 ">Contatti</text>
   <text text-anchor="middle " x="50 " y="15 " font-size="17 " fill="url(#gradient) " fill-opacity="0.1 ">Contatti</text>
 </svg>
 
@@ -264,9 +264,14 @@
                             <label for="nome " class="form-label ">Nome:</label>
                             <input name="nome " type="text " class="form-control " id="nome " aria-describedby="nome ">
                         </div>
+
                         <div class="mb-3 ">
                             <label for="email " class="form-label ">Email:</label>
                             <input name="email " type="email " class="form-control " id="email " aria-describedby="email ">
+                        </div>
+                        <div class="mb-3">
+                            <label for="birthday">Data di nascita:</label>
+                            <input type="date" id="birthday" name="birthday">
                         </div>
                         <div class="mb-3 ">
                             <label for="email " class="form-label ">Messaggio:</label>
