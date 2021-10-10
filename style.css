@@ -7,22 +7,13 @@ footer {
     color: white;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
-html,
 body {
-    height: 100%;
-    font-weight: 800;
-}
-
-body {
-    background-color: aquamarine;
-    color: #000202d8;
-    font-family: Arial;
+    background-color: #fadda6;
 }
 
 svg {
     display: block;
-    font: 10.5em 'Montserrat';
+    font: 10.5em 'Damiano';
     width: 280px;
     height: 70px;
     margin: 0 auto;
@@ -116,3 +107,15 @@ html {
 
 
 /* Dark Grey */
+
+#idAncora {
+    position: fixed;
+    right: 5px;
+    bottom: 14px;
+}
+
+.gotop {
+    border-radius: 80px;
+    padding: 5px 10px 5px 12px;
+    color: rgb(255, 255, 255);
+}
