@@ -5,7 +5,7 @@
         body {
             background-attachment: fixed;
             height: 200px;
-            background-color: #212423;
+            background-image: url('https://i.pinimg.com/originals/0a/8c/38/0a8c386fc47c9526405b21c6b0beef23.jpg');
         }
         
         svg {
@@ -76,24 +76,32 @@
         .html {
             width: 95%;
             background-color: #212423;
+            border: solid;
+            border-color: #ffffff;
         }
         /* Green */
         
         .css {
             width: 90%;
             background-color: #212423;
+            border: solid;
+            border-color: #ffffff;
         }
         /* Blue */
         
         .js {
             width: 60%;
             background-color: #212423;
+            border: solid;
+            border-color: #ffffff;
         }
         /* Red */
         
         .php {
             width: 10%;
             background-color: #212423;
+            border: solid;
+            border-color: #ffffff;
         }
         /* Dark Grey */
         
@@ -137,7 +145,7 @@
         
         .footer {
             background-color: #24262b;
-            padding: 70px 0;
+            padding: 60px 0;
         }
         
         .footer-col {
@@ -214,4 +222,17 @@
             .footer-col {
                 width: 100%;
             }
+        }
+        
+        .copy {
+            color: #ffffff;
+            text-align: center;
+        }
+        
+        h2 {
+            color: #ffffff;
+        }
+        
+        p {
+            color: #ffffff;
         }
