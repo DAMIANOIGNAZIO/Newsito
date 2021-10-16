@@ -1,121 +1,115 @@
-.carousel-item {
-    height: 330px;
-}
-
-footer {
-    background-color: #382d35;
-    color: white;
-}
-
-body {
-    background-color: white;
-}
-
-svg {
-    display: block;
-    font: 10.5em 'Damiano';
-    width: 280px;
-    height: 70px;
-    margin: 0 auto;
-}
-
-.text-copy {
-    fill: none;
-    stroke: white;
-    stroke-dasharray: 6% 29%;
-    stroke-width: 5px;
-    stroke-dashoffset: 0%;
-    animation: stroke-offset 5.5s infinite linear;
-}
-
-.text-copy:nth-child(1) {
-    stroke: #4D163D;
-    animation-delay: -1;
-}
-
-.text-copy:nth-child(2) {
-    stroke: #840037;
-    animation-delay: -2s;
-}
-
-.text-copy:nth-child(3) {
-    stroke: #BD0034;
-    animation-delay: -3s;
-}
-
-.text-copy:nth-child(4) {
-    stroke: #BD0034;
-    animation-delay: -4s;
-}
-
-.text-copy:nth-child(5) {
-    stroke: #FDB731;
-    animation-delay: -5s;
-}
-
-@keyframes stroke-offset {
-    100% {
-        stroke-dashoffset: -70%;
-    }
-}
-
-html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
-
-.skills {
-    text-align: right;
-    /* Right-align text */
-    padding-top: 10px;
-    /* Add top padding */
-    padding-bottom: 10px;
-    /* Add bottom padding */
-    color: white;
-    /* White text color */
-}
-
-.html {
-    width: 95%;
-    background-color: #212423;
-}
-
-
-/* Green */
-
-.css {
-    width: 90%;
-    background-color: #212423;
-}
-
-
-/* Blue */
-
-.js {
-    width: 60%;
-    background-color: #212423;
-}
-
-
-/* Red */
-
-.php {
-    width: 10%;
-    background-color: #212423;
-}
-
-
-/* Dark Grey */
-
-#idAncora {
-    position: fixed;
-    right: 5px;
-    bottom: 14px;
-}
-
-.gotop {
-    border-radius: 80px;
-    padding: 5px 10px 5px 12px;
-    color: rgb(255, 255, 255);
-}
+        .carousel-item {
+            height: 330px;
+        }
+        
+        footer {
+            background-color: #382d35;
+            color: white;
+        }
+        
+        body {
+            background-attachment: fixed;
+            height: 200px;
+            background-image: url('https://images.unsplash.com/photo-1542397680-c1450496a750?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+        }
+        
+        svg {
+            display: block;
+            font: 10.5em 'Damiano';
+            width: 280px;
+            height: 70px;
+            margin: 0 auto;
+        }
+        
+        .text-copy {
+            fill: none;
+            stroke: white;
+            stroke-dasharray: 6% 29%;
+            stroke-width: 5px;
+            stroke-dashoffset: 0%;
+            animation: stroke-offset 5.5s infinite linear;
+        }
+        
+        .text-copy:nth-child(1) {
+            stroke: #4D163D;
+            animation-delay: -1;
+        }
+        
+        .text-copy:nth-child(2) {
+            stroke: #840037;
+            animation-delay: -2s;
+        }
+        
+        .text-copy:nth-child(3) {
+            stroke: #BD0034;
+            animation-delay: -3s;
+        }
+        
+        .text-copy:nth-child(4) {
+            stroke: #BD0034;
+            animation-delay: -4s;
+        }
+        
+        .text-copy:nth-child(5) {
+            stroke: #FDB731;
+            animation-delay: -5s;
+        }
+        
+        @keyframes stroke-offset {
+            100% {
+                stroke-dashoffset: -70%;
+            }
+        }
+        
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        
+        .skills {
+            text-align: right;
+            /* Right-align text */
+            padding-top: 10px;
+            /* Add top padding */
+            padding-bottom: 10px;
+            /* Add bottom padding */
+            color: white;
+            /* White text color */
+        }
+        
+        .html {
+            width: 95%;
+            background-color: #212423;
+        }
+        /* Green */
+        
+        .css {
+            width: 90%;
+            background-color: #212423;
+        }
+        /* Blue */
+        
+        .js {
+            width: 60%;
+            background-color: #212423;
+        }
+        /* Red */
+        
+        .php {
+            width: 10%;
+            background-color: #212423;
+        }
+        /* Dark Grey */
+        
+        #idAncora {
+            position: fixed;
+            right: 5px;
+            bottom: 14px;
+        }
+        
+        .gotop {
+            border-radius: 80px;
+            padding: 5px 10px 5px 12px;
+            color: rgb(255, 255, 255);
+        }
