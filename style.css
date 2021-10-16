@@ -10,7 +10,7 @@
         body {
             background-attachment: fixed;
             height: 200px;
-            background-image: linear-gradient(180deg, khaki, lime);
+            background-image: linear-gradient(180deg, khaki, rgb(10, 141, 10));
         }
         
         svg {
