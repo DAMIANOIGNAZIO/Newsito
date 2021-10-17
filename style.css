@@ -107,12 +107,6 @@
            bottom: 14px;
        }
        
-       .gotop {
-           border-radius: 80px;
-           padding: 5px 10px 5px 12px;
-           color: rgb(255, 255, 255);
-       }
-       
        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
        body {
            line-height: 1.5;
@@ -139,14 +133,14 @@
            list-style: none;
        }
        
-       .footer {
+       .footer1 {
            background-color: #24262b;
-           padding: 60px 0;
+           padding: 50px 0;
        }
        
        .footer-col {
            width: 25%;
-           padding: 0 15px;
+           padding: 0 30px;
        }
        
        .footer-col h4 {
