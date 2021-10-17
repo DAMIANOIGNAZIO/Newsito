@@ -6,7 +6,7 @@
        
        svg {
            display: block;
-           font: 10.5em 'Damiano';
+           font: 10.5em 'Damy';
            width: 280px;
            height: 70px;
            margin: 0 auto;
@@ -156,11 +156,11 @@
            content: '';
            position: absolute;
            left: 0;
-           bottom: -10px;
+           bottom: -4px;
            background-color: #e91e63;
            height: 2px;
            box-sizing: border-box;
-           width: 79px;
+           width: 70px;
        }
        
        .footer-col ul li:not(:last-child) {
