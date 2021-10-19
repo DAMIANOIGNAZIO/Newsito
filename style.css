@@ -283,7 +283,7 @@
         }
         
         label {
-            color: #e72626;
+            color: #141313;
         }
         
         .home {
@@ -346,4 +346,8 @@
             border-color: #000000;
             background-color: #24262b;
             color: #ffffff;
+        }
+        
+        #p1 {
+            color: white;
         }
