@@ -93,7 +93,8 @@ ul {
 
 .footer-col {
     width: 30%;
-    padding: 0 25px;
+    padding: 0 30px;
+    display: block;
 }
 
 .footer-col h4 {
@@ -157,7 +158,7 @@ ul {
 @media(max-whidth:767px) {
     .footer-col {
         width: 50%;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
 }
 
