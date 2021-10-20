@@ -50,6 +50,7 @@
             @media screen and (max-width:500px) {
                 .navbar {
                     width: 200px;
+                    height: ;
                 }
                 .navbar a:hover {
                     font-size: 10px;
@@ -62,7 +63,7 @@
                     width: auto;
                 }
                 nav ul li {
-                    width: 100px;
+                    width: 50%;
                 }
             }
             
