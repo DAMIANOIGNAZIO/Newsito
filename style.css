@@ -9,6 +9,7 @@
             }
             
             #h2 {
+                padding-left: 20px;
                 color: rgb(255, 255, 255);
                 font-size: 40px;
                 font-family: Office Blogger;
@@ -21,7 +22,7 @@
             
             body {
                 font-family: 'Poppins', sans-serif;
-                background-color: rgb(92, 116, 108);
+                background-image: url('sf1.jpg');
             }
             
             .row {
@@ -50,7 +51,7 @@
             @media screen and (max-width:500px) {
                 .navbar {
                     width: 200px;
-                    height: ;
+                    height: 150;
                 }
                 .navbar a:hover {
                     font-size: 10px;
@@ -295,15 +296,15 @@
             }
             
             h2 {
-                color: #070606;
+                color: #e7e7e7;
             }
             
             p {
-                color: #000000;
+                color: #fcfcfc;
             }
             
             label {
-                color: #141313;
+                color: #ffffff;
             }
             
             .home {
@@ -370,4 +371,65 @@
             
             #p1 {
                 color: white;
+            }
+            
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            
+            body {
+                background-color: #4D163D;
+            }
+            
+            .menu,
+            a,
+            button {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 300;
+                font-size: 14px;
+                color: #fff;
+                text-decoration: none;
+            }
+            
+            header {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                padding: 30px 10%;
+            }
+            
+            .logo {
+                margin-right: auto;
+            }
+            
+            .menu {
+                list-style: none;
+            }
+            
+            .menu li {
+                display: inline-block;
+                padding: 0 20px;
+            }
+            
+            .menu li a {
+                transition: all .3s ease;
+            }
+            
+            .menu a:hover {
+                color: #39f;
+            }
+            
+            button {
+                padding: 9px 25px;
+                background: #0d94a6;
+                border: none;
+                border-radius: 50px;
+                cursor: pointer;
+                transition: all .3s ease;
+            }
+            
+            button:hover {
+                background: #39f;
             }
